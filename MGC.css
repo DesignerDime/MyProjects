@@ -103,6 +103,7 @@ p.total{
 	#contain{
 		position: absolute;
 		height:50%;
+		display: table;
 	}
 }
 @media screen and (max-width: 600){
@@ -112,5 +113,6 @@ p.total{
 	#contain{
 		position: absolute;
 		height:50%;
+		display: table;
 	}
 }

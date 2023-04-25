@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Step 1: Create Layout -->
+	<head>
+		<link rel="stylesheet" href="MGC.css">
+		<meta charset="UTF-8">		
+		<meta http-equiv="refresh" content="30">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Muscle Gain Calculator</title>
+	</head>
+	<body>
+		<div id="contain" class="container col-m-4 col-s-4">
+		<form id="form">
+			<div class="header">Muscle Gain Calculator</div>
+			<hr>
+			<!--User chooses their sex-->
+			<div class="chromosome">
+				<p class="choiceOne">Choose your sex:</p>
+				<input type="radio" id="female" name="sex" value="Female" required>
+				<label for="female">Female</label>
+				<input type="radio" id="male" name="sex" value="Male" required>
+				<label for="male">Male</label>
+			</div>
+			
+			<!--CALCULATING YOUR BMR (basal metabolic rate)-->
+			<div class="calBmr">
+				<h4>Calculating BMR</h4>
+				<label>What's your weight in pounds:</label>
+				<input type="text" id="weight" class="weight" maxlength="3" required>
+					<br>
+				<label>What's your height in inches:</label>
+				<input type="text" id="height" class="height" maxlength="2" required>
+					<br>
+				<label>What's your age:</label>
+				<input type="text" id="age" class="age" maxlength="2" required><br>
+			</div>
+		
+			<!--CALCULATING YOUR TOTAL DAILY ENERGY EXPENDITURE -->
+			<div class="calTdee">
+				<h4>Calculating TDEE</h4>
+				<p>What's your daily activity Level? (This includes working.)</p>
+				<input type="radio" id="actOne" name="active" value="1.2" required>
+				<label for="male">Level 1 (Little or no exercise)</label><br>
+				<input type="radio" id="actTwo" name="active" value="1.375" required>
+				<label for="male">Level 2 (Light exercise - 1 to 3 days per week)</label><br>
+				<input type="radio" id="actThree" name="active" value="1.55" required>
+				<label for="male">Level 3 (Moderate exercise - 3 to 5 days per week)</label><br>
+				<input type="radio" id="actFour" name="active" value="1.725" required>
+				<label for="male">Level 4 (Heavy exercise - 6 to 7 days per week)</label><br>
+				<input type="radio" id="actFive" name="active" value="1.9" required> 
+				<label for="male">Level 5 (Intense exercise - Daily)</label>
+			</div>
+				
+			<div class="calMacro">
+				<h4>CALCULATE YOUR PER-MEAL MACRONUTRIENTS</h4>
+				<p>What's your body type?</p>
+				
+				<input type="radio" id="endo" name="bodytype" value="TYPEONE" required>
+				<label for="male">ENDOMORPH BODY TYPE</label><br>
+				<input type="radio" id="ecto" name="bodytype" value="TYPETWO" required>
+				<label for="male">ECTOMORPH BODY TYPE</label><br>
+				<input type="radio" id="meso" name="bodytype" value="TYPETHREE" required>
+				<label for="male">MESOMORPH BODY TYPE</label>
+				
+				<div class="bodyInfo">What's my body type?
+					<div class="info">
+						<p><strong>ENDOMORPH BODY TYPE</strong>
+						Endomorphs have a thicker build, and they are often called thick, short, and stocky. 
+						An endomorph body type has a naturally slower metabolism, making it easy for them to get bigger or bulk, 
+						but when cutting season comes around, they struggle. Endomorphs typically focus on fat loss.</p>
+
+						<p><strong>ECTOMORPH BODY TYPE</strong>
+						On the opposite side of the spectrum, an ectomorph body type is lean, skinny, or lanky. They are often called hardgainers. 
+						They have a naturally high metabolic rate, allowing them to eat all day and not gain a pound. They can quickly lose weight, 
+						but always have trouble with bulking up or putting on weight. Ectomorphs often focus on getting bigger.</p>
+
+						<p><strong>MESOMORPH BODY TYPE</strong>
+						The mesomorph body type is the one we all want to have. They have a naturally lean and muscular physique, 
+						and are often called athletic or sporty. They have a higher metabolic rate that allows them to stay lean, 
+						but not so high that it doesn’t allow them to pack on muscle size. They can gain muscle as easily as they can burn fat.
+						 Some mesomorphs have weak points such as small calves, but this will differ from person to person.</p>
+					</div>
+				</div>
+			</div>
+			<div class="summarytotal">
+				<h4>Breakdown Summary For Muscle Gain:</h4>
+				<p class="total">Avg Daily Calories Needed:
+					<span id="totalBmr"></span>
+				</p>
+				<p class="total">Total Calories Needed:
+					<span id="totalCal"></span>
+				</p>
+				<p class="total">Total grams of Carbohydrates:
+					<span id="totalCarb"></span>
+				</p>
+				<p class="total">Total grams of Protein:
+					<span id="totalPro"></span>
+				</p>
+				<p class="total">Total grams of Fat:
+					<span id="totalFat"></span>
+				</p>
+			</div>
+			<button class="submit" type="submit">Calculate!</button>
+		</form>
+		</div>
+		<script src="MGC.js"></script>
+	</body>
+</html>

@@ -73,6 +73,7 @@ p.total{
 	position: absolute;
 	right: 215px;
 	bottom: 145px;
+	display: block;
 }
 #totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 	font-weight: bold;

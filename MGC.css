@@ -73,7 +73,6 @@ p.total{
 	position: absolute;
 	right: 215px;
 	bottom: 145px;
-	display: block;
 }
 #totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 	font-weight: bold;
@@ -103,12 +102,18 @@ p.total{
 	}
 	#contain{
 		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
 		height:100%;
 		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;
 		color: green;
+	}
+	.submit{
+		display: block;
 	}
 }
 @media screen and (max-width: 600){
@@ -117,11 +122,17 @@ p.total{
 	}
 	#contain{
 		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
 		height:100%;
 		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;
 		color: green;
+	}
+	.submit{
+		display: block;
 	}
 }

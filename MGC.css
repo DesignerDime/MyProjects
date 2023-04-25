@@ -102,7 +102,7 @@ p.total{
 	}
 	#contain{
 		position: absolute;
-		height:55%;
+		height:65%;
 		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
@@ -116,7 +116,7 @@ p.total{
 	}
 	#contain{
 		position: absolute;
-		height:55%;
+		height:65%;
 		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{

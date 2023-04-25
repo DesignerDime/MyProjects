@@ -14,7 +14,6 @@ body{
 	left: 685px;
 	padding-left: 5px;
 	padding-right: 5px;
-	float: left;
 }
 .container::after{
 	content: "";

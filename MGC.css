@@ -84,6 +84,7 @@ p.total{
 		right: 0;
 		bottom: 0;
 		height:100%;
+		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;
@@ -102,6 +103,7 @@ p.total{
 		right: 0;
 		bottom: 0;
 		height:100%;
+		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;

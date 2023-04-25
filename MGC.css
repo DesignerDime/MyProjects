@@ -98,20 +98,23 @@ p.total{
 @media screen and (max-width: 992px){
 	body{
 		background-color: black;
-		width: 100%;
-		overflow: auto;
+		
 	}
-	body.col-m-4{
-		width: 33.33%;
-		width: 100%;
+	#contain{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 }
 @media screen and (max-width: 600){
 	body{
 		background-color: black;
 	}
-	body.col-s-4{
-		width: 33.33%;
-		width: 100%;
+	#contain{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 }

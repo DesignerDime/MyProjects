@@ -15,13 +15,6 @@ body{
 	padding-left: 5px;
 	padding-right: 5px;
 }
-/*
-.container::after{
-	content: "";
-	display: table;
-	clear: both;
-}
-*/
 .header{
 	font-size: 20px;
 	text-align: center;
@@ -79,22 +72,6 @@ p.total{
 	
 }
 
-
-/*
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-*/
-
 @media screen and (max-width: 992px){
 	body{
 		background-color: black;
@@ -107,16 +84,13 @@ p.total{
 		right: 0;
 		bottom: 0;
 		height:100%;
-		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;
 		color: green;
 	}
-	.submit{
-		display: block;
-	}
 }
+
 @media screen and (max-width: 600){
 	body{
 		background-color: black;
@@ -128,7 +102,6 @@ p.total{
 		right: 0;
 		bottom: 0;
 		height:100%;
-		display: table;
 	}
 	#totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 		font-weight: bold;

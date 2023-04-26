@@ -1,6 +1,7 @@
 body{
 	background-color: beige;
 	box-sizing: border-box;
+	text-align: center;
 }
 .container{
 	background-color: lightblue;

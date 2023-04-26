@@ -29,7 +29,9 @@ h4{
 	text-align: center;
 	text-decoration: underline;
 }
-
+#form{
+	box-sizing: border-box;
+}
 .chromosome{
 	text-align: center;
 	line-height: .5;

@@ -93,6 +93,9 @@ p.total{
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;
 }
+.summarytotal{
+		margin-top: 5px;
+	}
 .submit{
 	position: absolute;
 	right: 210px;
@@ -119,7 +122,6 @@ p.total{
 	body{
 		background-color: black;
 	}
-	
 	#contain{
 		display: block;
 		position: absolute;
@@ -129,6 +131,9 @@ p.total{
 	}
 	h4{
 		line-height: .5;
+	}
+	.summarytotal{
+		margin-top: 5px;
 	}
 	.summarytotal h4{
 		line-height: 0;

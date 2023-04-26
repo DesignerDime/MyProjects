@@ -88,17 +88,6 @@ p.total{
 	visibility: hidden;
 	z-index: 1;
 }
-	/* Pop up arrow */
-.bodyInfo .info::after{
-	content: "";
-	position: absolute;
-	top: 330px;
-	right: 40px;
-	border-style: solid;
-	border-width: 9px;
-	border-color: grey;
-	transform: rotate(45deg);
-}
 .bodyInfo .show{
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;

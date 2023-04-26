@@ -116,13 +116,12 @@ const form = document.getElementById('form');
 		}
 		
 	});
-/*BODY INFO POP UP*/
+	
 	function popUp(){
 		var popup = document.getElementById("myPopup");
 		popup.classList.toggle("show");
 	}
-
-
+	
 // https://int.ironbullstrength.com/blogs/learn/how-to-calculate-your-calories-for-muscle-building-in-6-easy-steps
 // To calculate your BMR, take the information that we collected from above, and place it into the formula below.
 

@@ -54,11 +54,24 @@ p.total{
 	bottom: 220px;
 	right: 20px;
 	text-decoration: underline;
+.info{
+	/* display: none; */
+	position: absolute;
+	top: -350px;
+	right: 30px;
+	background-color: grey;
+	border-radius: 10%;
+	width: 25em;
 }
-.bodyInfo .info{
-	display: none;
+.info p{
+	text-decoration: none;
+	font-size: 14px;
+	width: 90%;
+	padding-left: 19px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-.bodyInfo .info:hover{
+.info:hover{
 	display: block;
 	
 }

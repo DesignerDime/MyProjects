@@ -1,6 +1,4 @@
-//const sex = document.getElementByName('sexes');
-	
-	const form = document.getElementById('form');
+const form = document.getElementById('form');
 	
 	form.addEventListener('submit', function(event){ // Do everything within function so output in viewed when user hits submit
 		event.preventDefault();

@@ -94,7 +94,7 @@ p.total{
 	animation: fadeIn 1s;
 }
 .summarytotal{
-		margin-top: 5px;
+		margin-top: 30px;
 	}
 .submit{
 	position: absolute;
@@ -141,7 +141,7 @@ p.total{
 	.submit{
 		position: absolute;
 		right: 210px;
-		bottom: 145px;
+		bottom: 140px;
 	}
 }
 @media screen and (max-width: 600){
@@ -159,7 +159,7 @@ p.total{
 		line-height: .5;
 	}
 	.summarytotal{
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 	.summarytotal h4{
 		line-height: 0;
@@ -167,6 +167,6 @@ p.total{
 	.submit{
 		position: absolute;
 		right: 210px;
-		bottom: 145px;
+		bottom: 140px;
 	}
 }

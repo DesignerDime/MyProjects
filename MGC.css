@@ -107,7 +107,7 @@ p.total{
 .submit{
 	position: absolute;
 	right: 215px;
-	bottom: 151px;
+	bottom: 120px;
 }
 #totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 	font-weight: bold;

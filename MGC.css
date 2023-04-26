@@ -68,6 +68,7 @@ p.total{
 	background-color: grey;
 	border-radius: 10%;
 	width: 25em;
+	display: inline-block;
 	cursor: pointer;
 	
 	-webkit-user-select: none;
@@ -149,5 +150,6 @@ p.total{
 		left: 0;
 		right: 0;
 		bottom: 0;
+		height: 50%;
 	}
 }

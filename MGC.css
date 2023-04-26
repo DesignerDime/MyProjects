@@ -138,6 +138,9 @@ p.total{
 		right: 0;
 		bottom: 0;
 	}
+	h4{
+		line-height: .5;
+	}
 	.submit{
 		position: absolute;
 		right: 215px;
@@ -154,6 +157,9 @@ p.total{
 		left: 0;
 		right: 0;
 		bottom: 0;
+	}
+	h4{
+		line-height: .5;
 	}
 	.submit{
 		position: absolute;

@@ -130,10 +130,13 @@ p.total{
 	h4{
 		line-height: .5;
 	}
+	.summarytotal h4{
+		line-height: 0;
+	}
 	.submit{
 		position: absolute;
 		right: 215px;
-		bottom: 118px;
+		bottom: 130px;
 	}
 }
 @media screen and (max-width: 600){
@@ -150,9 +153,12 @@ p.total{
 	h4{
 		line-height: .5;
 	}
+	.summarytotal h4{
+		line-height: 0;
+	}
 	.submit{
 		position: absolute;
 		right: 215px;
-		bottom: 118px;
+		bottom: 130px;
 	}
 }

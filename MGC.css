@@ -99,7 +99,7 @@ p.total{
 .submit{
 	position: absolute;
 	right: 210px;
-	bottom: 135px;
+	bottom: 140px;
 }
 #totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
 	font-weight: bold;
@@ -133,14 +133,14 @@ p.total{
 		line-height: .5;
 	}
 	.summarytotal{
-		margin-top: 5px;
+		margin-top: 10px;
 	}
 	.summarytotal h4{
 		line-height: 0;
 	}
 	.submit{
 		position: absolute;
-		right: 215px;
+		right: 210px;
 		bottom: 145px;
 	}
 }
@@ -158,12 +158,15 @@ p.total{
 	h4{
 		line-height: .5;
 	}
+	.summarytotal{
+		margin-top: 10px;
+	}
 	.summarytotal h4{
 		line-height: 0;
 	}
 	.submit{
 		position: absolute;
-		right: 215px;
+		right: 210px;
 		bottom: 145px;
 	}
 }

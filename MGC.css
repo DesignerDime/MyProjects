@@ -52,9 +52,6 @@ h4{
 p.total{
 	line-height: 0.1;
 }
-.summarytotal{
-	margin-top: 15px;
-}
 .bodyInfo{
 	position: absolute;
 	bottom: 220px;
@@ -138,7 +135,6 @@ p.total{
 		left: 0;
 		right: 0;
 		bottom: 0;
-		height: 50%;
 	}
 }
 @media screen and (max-width: 600){
@@ -151,6 +147,5 @@ p.total{
 		left: 0;
 		right: 0;
 		bottom: 0;
-		height: 50%;
 	}
 }

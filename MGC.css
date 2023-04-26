@@ -62,6 +62,12 @@ p.total{
 	background-color: grey;
 	border-radius: 10%;
 	width: 25em;
+	display: inline-block;
+	cursor: pointer;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
 }
 .info p{
 	text-decoration: none;
@@ -71,9 +77,26 @@ p.total{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.info:hover{
-	display: block;
-	
+/* Actual pop up */
+.bodyInfo .info{
+	visibility: hidden;
+	z-index: 1;
+}
+	/* Pop up arrow */
+.bodyInfo .info::after{
+	content: "";
+	position: absolute;
+	top: 330px;
+	right: 40px;
+	border-style: solid;
+	border-width: 9px;
+	border-color: grey;
+	transform: rotate(45deg);
+}
+.bodyInfo .show{
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
 }
 .submit{
 	position: absolute;
@@ -85,6 +108,17 @@ p.total{
 	
 }
 
+/* Toggle this class - hide and show the popup */
+@-webkit-keyframes fadeIn{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+/* Add animation (fade in the popup) */
+@keyframes fadeIn{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+	
 @media screen and (max-width: 992px){
 	body{
 		background-color: black;

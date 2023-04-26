@@ -94,7 +94,7 @@ p.total{
 	animation: fadeIn 1s;
 }
 .summarytotal{
-		margin-top: 45px;
+		margin-top: 40px;
 	}
 .submit{
 	position: absolute;
@@ -135,6 +135,9 @@ p.total{
 	.calMacro{
 		margin-bottom: 35px;
 	}
+	.summarytotal{
+		margin-top: 40px;
+	}
 	.summarytotal h4{
 		line-height: 0;
 	}
@@ -160,6 +163,9 @@ p.total{
 	}
 	.calMacro{
 		margin-bottom: 35px;
+	}
+	.summarytotal{
+		margin-top: 40px;
 	}
 	.summarytotal h4{
 		line-height: 0;

@@ -104,7 +104,7 @@ p.total{
 }
 .submit{
 	position: absolute;
-	right: 150px;
+	right: 215px;
 	bottom: 145px;
 }
 #totalBmr, #totalCal, #totalCarb, #totalPro, #totalFat{
@@ -136,6 +136,11 @@ p.total{
 		right: 0;
 		bottom: 0;
 	}
+	.submit{
+		position: absolute;
+		right: 150px;
+		bottom: 145px;
+	}
 }
 @media screen and (max-width: 600){
 	body{
@@ -147,5 +152,10 @@ p.total{
 		left: 0;
 		right: 0;
 		bottom: 0;
+	}
+	.submit{
+		position: absolute;
+		right: 150px;
+		bottom: 145px;
 	}
 }

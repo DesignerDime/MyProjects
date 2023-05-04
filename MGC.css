@@ -64,7 +64,8 @@ p.total{
 	position: absolute;
 	top: -350px;
 	right: 30px;
-	background-color: grey;
+	background-color: lightblue;
+	border-style: groove;
 	border-radius: 10%;
 	width: 25em;
 	display: inline-block;
